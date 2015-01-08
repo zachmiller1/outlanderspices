@@ -11,6 +11,11 @@ p {
 	font-size: .875em;
 }
 
+h2 {
+	font-size: 1.625em;
+	color: #004020;
+}
+
 /* ==================
 	Header
 =================== */
@@ -80,14 +85,34 @@ ul {
 	Home Intro
 =================== */
 
-h2 {
+.introheader {
 	font-size: 1.625em;
-	color: #004020;
+	color: #fff;
+	margin: 0;
 }
 
-h3 a {
-	color: #006D36;
+.introtext {
 	font-size: 0.875em;
+	line-height: 1.3;
+	word-spacing: 2px;
+	margin-bottom: 0;
+}
+
+.introspace {
+	margin: 0 0 20px 0;
+}
+
+.introcontainer {
+	width: 410px;
+	height: 145px;
+	margin: 0;
+	padding: 0;
+}
+
+.whitebox {
+	background-color: #fff;
+	padding: 15px 10px 20px 15px;
+	margin: 0;
 }
 
 .introbg {
@@ -101,7 +126,10 @@ h3 a {
 	Home Main
 =================== */
 
-
+h3 a {
+	color: #006D36;
+	font-size: 0.875em;
+}
 
 /* ==================
 	Products Table
