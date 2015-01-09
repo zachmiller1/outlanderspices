@@ -4,6 +4,7 @@
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
 }
 
 p {
@@ -13,7 +14,13 @@ p {
 
 h2 {
 	font-size: 1.625em;
-	color: #46AC68;
+	color: #0a883b;
+	border: 2px solid #0a883b;
+	padding: 5px 0;
+}
+
+h2.introlead {
+	border: none;
 }
 
 /* ==================
@@ -38,6 +45,8 @@ h2 {
 	float: right;
 }
 
+
+
 /* ==================
 	CLEARFIX
 =================== */
@@ -52,6 +61,7 @@ h2 {
 .clearfix {
   *zoom: 1;
 }
+
 
 
 /* ==================
@@ -77,12 +87,18 @@ h2 {
 	font-size: 0.875em;
 }
 
+.topnav a:hover {
+	color: #fff;
+}
+
 ul {
 	padding: 0;
 }
 
+
+
 /* ==================
-	Home Intro
+	Intro CTA
 =================== */
 
 .introlead {
@@ -131,6 +147,12 @@ ul {
 	background-size: 100%;
 }
 
+
+
+/* =================================================
+					Home Page
+==================================================== */
+
 /* ==================
 	Home Main
 =================== */
@@ -154,17 +176,163 @@ h4 a:visited {
 }
 
 .maincontent {
-	padding: 75px 0;
+	padding: 65px 0;
 }
 
-.news {
-	margin-right: 75px;
+.news h4 {
+	border: none;
+	margin: 10px 0;
+}
+
+.news h4 {
+	text-align: left;
 }
 
 .featured img {
 	float: left;
 	margin: 0 30px 5px 0;
 }
+
+
+
+/* =================================================
+					About Us Page
+==================================================== */
+
+/* ==================
+	Internal Nav
+=================== */
+
+.internalnav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.25em;
+	padding: 8px 12px;
+	background: #0a843b;
+	border-radius: 20px;
+	border: 2px solid #fff;
+	float: left;
+	width: 30%;
+	margin-right: 5px;
+}
+
+.internalnav a:hover {
+	color: #0a843b;
+	background: #fff;
+	border: 2px solid #0a843b;
+}
+
+.internalnav li {
+	list-style: none;
+	display: inline;
+	text-align: center;
+}
+
+.internalnav li:nth-child(3) a {
+	margin-right: 0;
+}
+
+.internalnav {
+	background-color: #C1E492;
+	padding: 20px;
+}
+
+/* ==================
+	All Spiced Up
+=================== */
+
+h2 {
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+
+h4 {
+	text-align: center;
+	font-size: 1.125em;
+	color: #0a883b;
+	border-bottom: 2px dashed #0a843b;
+	padding-bottom: 5px;
+}
+
+a[href="#top"] {
+	display: block;
+	text-decoration: none;
+	color: #0a843b;
+	font-size: .75em;
+	padding: 4px 0;
+	background: #C1E492;
+	border-radius: 20px;
+	border: 2px solid #0a883b;
+	margin: 30px auto;
+	text-align: center;
+	width: 100px;
+}
+
+a[href="#top"]:hover {
+	color: #C1E492;
+	background: #0a883b;
+	border: 2px solid #C1E492;
+}
+
+
+/* ==================
+  	About our Spices
+===================== */
+
+.textcontainer p {
+	font-size: 1.125em;
+	line-height: 1.3;
+	text-indent: 50px;
+}
+
+.textcontainer {
+	width: 700px;
+	margin: 30px auto;
+}
+
+.contentmargin {
+	margin: 50px auto;
+}
+
+.subcontent {
+	width: 700px;
+	margin: 30px auto;
+}
+
+.subcontent p {
+	font-size: 1em;
+	line-height: 1.5;
+	text-indent: 50px;
+}
+
+.teamlist {
+	margin: 0 auto;
+}
+
+.teamlist li {
+	list-style: none;
+	font-size: 1.25em;
+	float: left;
+	width: 25%;
+}
+
+.teamlist li:nth-child(odd) {
+	color: #006D36;
+	font-size: 1.375em;
+	font-weight: bold;
+	margin-right: -60px;
+}
+
+.teamlist li:nth-child(even) {
+	margin-bottom: 20px;
+	font-size: .875em;
+	margin-right: 50px;
+	margin-top: 7px;
+}
+
+/* =================================================
+				Products Page
+==================================================== */
 
 /* ==================
 	Products Table
@@ -200,6 +368,8 @@ h4 a:visited {
 	font-style: italic;
 }
 
+
+
 /* ==================
 	Footer
 =================== */
@@ -216,6 +386,8 @@ footer p {
 	padding: 0;
 }
 
+
+
 /* ==================
 	Site Container
 =================== */
@@ -224,6 +396,8 @@ footer p {
 	width: 1280px;
 	margin: 0 auto;
 }
+
+
 
 /* ==================
 	960 Grid
