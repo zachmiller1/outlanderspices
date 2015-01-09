@@ -85,10 +85,19 @@ ul {
 	Home Intro
 =================== */
 
-.introheader {
-	font-size: 1.625em;
+.introlead {
+	font-size: 2.175em;
 	color: #fff;
 	margin: 0;
+	text-shadow: 2px 2px #000;
+	letter-spacing: 0.9px;
+}
+
+.leadcontainer {
+	width: 340px;
+	height: 105px;
+	margin: 0 0 0 5px;
+	padding: 30px 0 0;
 }
 
 .introtext {
@@ -103,8 +112,8 @@ ul {
 }
 
 .introcontainer {
-	width: 410px;
-	height: 145px;
+	width: 385px;
+	height: 150px;
 	margin: 0;
 	padding: 0;
 }
@@ -112,7 +121,7 @@ ul {
 .whitebox {
 	background-color: #fff;
 	padding: 15px 10px 20px 15px;
-	margin: 0;
+	margin: 0 0 0 5px;
 }
 
 .introbg {
@@ -182,7 +191,7 @@ footer p {
 }
 
 /* ==================
-	960 Grid
+	Site Container
 =================== */
 
 .sitecontainer {
