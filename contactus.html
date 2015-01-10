@@ -7,104 +7,117 @@
 	</head>
 	<body>
 
-		<ul class="topnav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="aboutus.html">About Us</a></li>
-			<li><a href="products.html">Products</a></li>
-			<li><a href="recipes.html">Recipes</a></li>
-			<li><a href="orderonline.html">Order Online</a></li>
-			<li><a href="locations.html">Locations</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-		</ul>
+		<div class="sitecontainer"><!-- sitecontainer -->
 
-		<h1>Contact Us</h1>
-		<p>We'd love to hear from you!</p>
 
-		<form action="#">
-			<fieldset>
-				<legend>User Information</legend>
+			<!-- Header -->
 
-				<label for="name">Name:</label>
-				<br>
-				<input type="text" name="name" id="name">
 
-				<br>
+			<div class="maincontainer clearfix"><!-- headercontainer -->
+				<h1 class="headerlogo"><a href="index.html">Outlander Spices</a></h1><!-- headerlogo -->
+				<div class="headerspices"></div><!-- headerspices.jpg -->
+			</div><!-- end headercontainer -->
 
-				<label for="address">Address:</label>
-				<br>
-				<input type="text" name="address" id="address">
 
-				<br>
+			<!-- Top Navigation -->
+			
 
-				<label for="city">City:</label>
-				<br>
-				<input type="text" name="city" id="city">
+			<div class="topnav"><!-- topnav -->
+				<ul class="maincontainer"><!-- maincontainer -->
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="recipes.html">Recipes</a></li>
+					<li><a href="orderonline.html">Order Online</a></li>
+					<li><a href="locations.html">Locations</a></li>
+					<li><a href="contactus.html" id="active">Contact Us</a></li>
+				</ul><!-- end maincontainer -->
+			</div><!-- end topnav -->
 
-				<br>
 
-				<label for="state">State:</label>
-				<br>
-				<input type="text" name="state" id="state">
+			<!-- Intro CTA -->
 
-				<br>
 
-				<label for="zip">Zip:</label>
-				<br>
-				<input type="text" name="zip" id="zip">
+			<div class="introbg"><!-- introbg -->
+				<div class="maincontainer"><!-- maincontainer -->
+					<div class="leadcontainer"><!-- leadcontainer -->
+						<h2 class="introlead">The Market Leader in Quality Spices</h2>
+					</div><!-- leadcontainer end -->
 
-				<br>
+					<div class="introcontainer whitebox"><!-- introcontainer whitebox-->
+						<p class="introtext introspace">We bring you a rich heritage of the finest spices from all over the world. You can find our kiosks in grocery and specialty stores all over the country, or you can order directly from this Web site. We are dedicated to providing spices of exceptional quality and variety.</p>
 
-				<label for="email">Email address:</label>
-				<br>
-				<input type="text" name="email" id="email">
+						<p class="introtext">Discover a whole new world of flavor: look for an Outlander Spices kiosk in a store near you!</p>
+					</div><!-- introcontainer whitebox end -->
+				</div><!-- maincontainer end -->
+			</div><!-- introbg end -->
 
-				<br>
-				<br>
 
-				<label for="spice">What is your favorite spice of ours?</label>
-				<br>
-				<select name="spice" id="spice">
-					<option value="cinnamon">Cinnamon</option>
-					<option value="nutmeg">Nutmeg</option>
-					<option value="bayleaf">Bayleaf</option>
-					<option value="cloves">Cloves</option>
-					<option value="cumin">Cumin</option>
-					<option value="staranise">Star Anise</option>
-					<option value="pepper">Pepper</option>
-					<option value="coriander">Coriander</option>
-				</select>
+			<!-- CONTACT US PAGE BEGIN -->
 
-				<br>
-				<br>
 
-				<label for="share">How have you used Outlander Spices to spice up your favorite dish?</label>
-				<br>
-				<textarea name="share" id="share" placeholder="Share your story here!"></textarea>
+			<h2 class="contactusheader">Contact Us</h2>
 
-				<br>
-				<br>
+			<form action="#">
+				<fieldset>
+					<legend>User Information</legend>
 
-				<label for="chef">What is your experience level?</label>
-				<br>				
-				<input type="radio" name="experience" id="chef">
-				<label for="chef">Professional Chef</label>
-				<br>
-				<input type="radio" name="experience" id="cook">
-				<label for="cook">Home Cook</label>
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name">
 
-				<br>
-				<br>
+					<label for="address">Address:</label>
+					<input type="text" name="address" id="address">
 
-				<label for="newsletter">Sign me up for the Outlander Spices newsletter</label>
-				<input type="checkbox" name="newsletter" id="newsletter"> 
+					<label for="city">City:</label>
+					<input type="text" name="city" id="city">
 
-				<br>
-				<br>
+					<label for="state">State:</label>
+					<input type="text" name="state" id="state">
 
-				<input type="submit" value="Send Information">
-				<input type="reset" value="Sorry I was lying">
+					<label for="zip">Zip:</label>
+					<input type="text" name="zip" id="zip">
 
-			</fieldset>
-		</form>
+					<label for="email">Email address:</label>
+					<input type="text" name="email" id="email">
+
+					<label for="spice">What is your favorite spice of ours?</label>
+					<select name="spice" id="spice">
+						<option value="cinnamon">Cinnamon</option>
+						<option value="nutmeg">Nutmeg</option>
+						<option value="bayleaf">Bayleaf</option>
+						<option value="cloves">Cloves</option>
+						<option value="cumin">Cumin</option>
+						<option value="staranise">Star Anise</option>
+						<option value="pepper">Pepper</option>
+						<option value="coriander">Coriander</option>
+					</select>
+
+					<label for="share">How have you used Outlander Spices to spice up your favorite dish?</label>
+					<textarea name="share" id="share" placeholder="Share your story here!"></textarea>
+
+					<label for="chef" id="experiencelabel">What is your experience level?</label>
+					<label for="chef">Professional Chef</label>				
+					<input type="radio" name="experience" id="chef">
+					<label for="cook">Home Cook</label>
+					<input type="radio" name="experience" id="cook">
+
+					<label for="newsletter">Sign me up for the Outlander Spices newsletter</label>
+					<input type="checkbox" name="newsletter" id="newsletter"> 
+
+					<input type="submit" value="Send Information">
+					<input type="reset" value="Sorry I was lying">
+
+				</fieldset>
+			</form>
+
+
+			<!-- Footer -->
+
+
+			<footer><!-- footer -->
+				<p class="maincontainer">&copy; 2010-2015 Outlander Spices</p>
+			</footer><!-- end footer -->
+
+		</div>
 	</body>
 </html>
