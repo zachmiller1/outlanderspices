@@ -388,13 +388,20 @@ label {
 	display: block;
 }
 
-label[for="chef"], label[for="cook"] {
-	font-weight: normal;
-	display: inline;
+#experiencelevel {
+	float: left;
+	display: block;
 }
 
-input[type="radio"] {
-	display: inline-block;
+#experiencelevel label {
+	float: left;
+	clear: none;
+	display: block;
+}
+
+#experiencelevel input {
+	float: left;
+	clear: none;
 }
 
 select {

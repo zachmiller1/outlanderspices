@@ -80,6 +80,8 @@
 					<label for="email">Email address:</label>
 					<input type="text" name="email" id="email">
 
+					<!-- Favorite Spice -->
+
 					<label for="spice">What is your favorite spice of ours?</label>
 					<select name="spice" id="spice">
 						<option value="cinnamon">Cinnamon</option>
@@ -92,17 +94,28 @@
 						<option value="coriander">Coriander</option>
 					</select>
 
+					<!-- Share your story -->
+
 					<label for="share">How have you used Outlander Spices to spice up your favorite dish?</label>
 					<textarea name="share" id="share" placeholder="Share your story here!"></textarea>
 
+					<!-- Experience Level -->
+
 					<label for="chef" id="experiencelabel">What is your experience level?</label>
-					<label for="chef">Professional Chef</label>				
-					<input type="radio" name="experience" id="chef">
-					<label for="cook">Home Cook</label>
-					<input type="radio" name="experience" id="cook">
+
+					<div id="experiencelevel">
+						<label for="chef">Professional Chef</label>	
+						<input type="radio" name="experience" id="chef">
+						<label for="cook">Home Cook</label>
+						<input type="radio" name="experience" id="cook">
+					</div>
+
+					<!-- Newsletter -->
 
 					<label for="newsletter">Sign me up for the Outlander Spices newsletter</label>
 					<input type="checkbox" name="newsletter" id="newsletter"> 
+
+					<!-- Buttons -->
 
 					<input type="submit" value="Send Information">
 					<input type="reset" value="Sorry I was lying">
