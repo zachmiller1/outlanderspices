@@ -213,7 +213,7 @@ h4 a:visited {
 	font-size: 1.25em;
 	padding: 8px 12px;
 	background: #0a843b;
-	border-radius: 20px;
+	border-radius: 5px;
 	border: 2px solid #fff;
 	float: left;
 	width: 30%;
@@ -265,7 +265,7 @@ a[href="#top"] {
 	font-size: .75em;
 	padding: 4px 0;
 	background: #C1E492;
-	border-radius: 20px;
+	border-radius: 5px;
 	border: 2px solid #0a883b;
 	margin: 30px auto;
 	text-align: center;
@@ -366,7 +366,12 @@ fieldset {
 }
 
 legend {
-	display: none;
+	text-align: center;
+	color: darkgreen;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 7px;
+	background-color: #eee;
 }
 
 label {
@@ -445,6 +450,54 @@ option {
 
 label[for="newsletter"] {
 	display: inline-block;
+}
+
+
+
+/* =================================================
+				Locations Page
+==================================================== */
+
+#locations h3 {
+	text-align: center;
+	font-size: 1.375em;
+	color: #0a883b;
+	border-bottom: 2px dashed #0a843b;
+	padding-bottom: 5px;
+}
+
+#locations h4 {
+	display: inline;
+	font-size: 1.25em;
+	color: darkgreen;
+	text-align: left;
+	border: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 1px solid darkgreen;
+}
+
+#locations a {
+	color: #0a883b;
+}
+
+#locations a:hover {
+	color: lightgreen;
+}
+
+#locations li {
+	list-style: none;
+}
+
+#locations p {
+	font-size: 1.125em;
+	line-height: 1.3;
+	text-indent: 50px;
+}
+
+#locations {
+	width: 700px;
+	margin: 30px auto;
 }
 
 /* =================================================
