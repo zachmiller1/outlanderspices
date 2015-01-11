@@ -514,12 +514,12 @@ label[for="newsletter"] {
 }
 
 #productsTable, th, td {
-	border: 1px solid #000;
+	border: 2px solid darkgreen;
 	padding: 5px;
 }
 
 #productsTable {
-	background-color: tomato;
+	background-color: #ddd;
 	color: #222;
 }
 
@@ -536,6 +536,10 @@ label[for="newsletter"] {
 
 .price {
 	font-style: italic;
+}
+
+#productsheader {
+	margin: 0;
 }
 
 
