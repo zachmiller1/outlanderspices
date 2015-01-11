@@ -544,6 +544,65 @@ label[for="newsletter"] {
 
 
 
+/* =================================================
+				Recipes Page
+==================================================== */
+
+#recipescontent h3 {
+	text-align: center;
+	font-size: 1.375em;
+	color: #0a883b;
+	border-bottom: 2px dashed #0a843b;
+	padding-bottom: 5px;
+}
+
+#recipescontent h4 {
+	display: inline;
+	font-size: 1.25em;
+	color: darkgreen;
+	text-align: left;
+	border: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 1px solid darkgreen;
+}
+
+#recipescontent a {
+	color: #0a883b;
+}
+
+#recipescontent a:hover {
+	color: lightgreen;
+}
+
+#recipescontent ul, ol {
+	padding: 0 25px;
+	line-height: 1.5;
+}
+
+.directions {
+	font-weight: bold;
+	text-decoration: underline;
+	color: darkgreen;
+}
+
+#recipescontent li {
+	padding-left: 0;
+}
+
+#recipescontent p {
+	font-size: 1.125em;
+	line-height: 1.3;
+	text-indent: 50px;
+}
+
+#recipescontent {
+	width: 700px;
+	margin: 30px auto;
+}
+
+
+
 /* ==================
 	Footer
 =================== */
