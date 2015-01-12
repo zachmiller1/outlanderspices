@@ -13,10 +13,10 @@ p {
 }
 
 h2 {
-	font-size: 1.625em;
+	font-size: 1.825em; /* was 1.625 or something */ 
 	color: #0a883b;
 	border: 2px solid #0a883b;
-	padding: 5px 0;
+	padding: 10px 0; /* was 5px */
 }
 
 h2.introlead {
@@ -197,6 +197,10 @@ h4 a:visited {
 	margin: 0 30px 5px 0;
 }
 
+.featured {
+	margin-left: 50px;
+}
+
 
 
 /* =================================================
@@ -358,7 +362,7 @@ form {
 fieldset {
 	border: none;
 	width: 600px;
-	margin: 0 auto;
+	margin: 10px auto; /* was 0 auto */
 	padding: 20px;
 	background-color: #f5f5f5;
 	border-radius: 20px;
@@ -600,6 +604,36 @@ label[for="newsletter"] {
 	width: 700px;
 	margin: 30px auto;
 }
+
+
+/* =================================================
+				Recipes Page
+==================================================== */
+
+/* ==================
+	Order Info
+=================== */
+
+#orderonline {
+	margin: 0;
+}
+
+#gift {
+	margin: 13px 10px;
+}
+
+.productquantity label {
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.productquantity select {
+	margin: 0 10px 0 0;
+}
+
+/* ==================
+	Billing Info
+=================== */
 
 
 
