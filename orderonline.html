@@ -24,11 +24,11 @@
 
 			<div class="topnav"><!-- topnav -->
 				<ul class="maincontainer"><!-- maincontainer -->
-					<li><a href="index.html" id="active">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="aboutus.html">About Us</a></li>
 					<li><a href="products.html">Products</a></li>
 					<li><a href="recipes.html">Recipes</a></li>
-					<li><a href="orderonline.html">Order Online</a></li>
+					<li><a href="orderonline.html" id="active">Order Online</a></li>
 					<li><a href="locations.html">Locations</a></li>
 					<li><a href="contactus.html">Contact Us</a></li>
 				</ul><!-- end maincontainer -->
@@ -303,47 +303,68 @@
 
 			<!-- Billing Info -->
 
-			<fieldset>
+			<fieldset id="billinginfo">
 				<legend>Billing Information</legend>
 
-				<label for="visa">Visa</label>
-				<input type="radio" name="creditcard" id="visa">
-				<label for="mastercard">MasterCard</label>
-				<input type="radio" name="creditcard" id="mastercard">
-				<label for="discover">Discover</label>
-				<input type="radio" name="creditcard" id="discover">
-				<label for="americanexpress">American Express</label>
-				<input type="radio" name="creditcard" id="americanexpress">
+				<div class="creditcards">
+					<div class="formrow">
+						<label for="visa">Visa</label>
+						<input type="radio" name="creditcard" id="visa">
+					</div>
 
-				<label for="ccnumber">Credit Card Number:</label>
-				<input type="text" name="ccnumber" id="ccnumber">
+					<div class="formrow">
+						<label for="mastercard">MasterCard</label>
+						<input type="radio" name="creditcard" id="mastercard">
+					</div>
 
-				<label for="ccv">CCV:</label>
-				<input type="text" name="ccv" id="ccv">
+					<div class="formrow">
+						<label for="discover">Discover</label>
+						<input type="radio" name="creditcard" id="discover">
+					</div>
 
-				<label for="month">Expiration Date:</label>
-				<select name="month" id="month">
-					<option value="">-Month-</option>
-					<option value="1">January (1)</option>
-					<option value="2">February (2)</option>
-					<option value="3">March (3)</option>
-					<option value="4">April (4)</option>
-					<option value="5">May (5)</option>
-					<option value="6">June (6)</option>
-					<option value="7">July (7)</option>
-					<option value="8">August (8)</option>
-					<option value="9">September (9)</option>
-					<option value="10">October (10)</option>
-					<option value="11">November (11)</option>
-					<option value="12">December (12)</option>
-				</select>
-				<select name="expiration" id="year">
-					<option value="">-Year-</option>
-					<option value="2015">2015</option>
-					<option value="2016">2016</option>
-					<option value="2017">2017</option>
-					<option value="2018">2018</option>
-				</select>
+					<div class="formrow">
+						<label for="americanexpress">American Express</label>
+						<input type="radio" name="creditcard" id="americanexpress">
+					</div>
+				</div><!-- end creditcards -->
+
+				<div class="creditcards">
+					<div class="formrow">
+						<label for="ccnumber">Credit Card Number:</label>
+						<input type="text" name="ccnumber" id="ccnumber">
+					</div>
+					
+					<div class="formrow">
+						<label for="ccv">CCV:</label>
+						<input type="text" name="ccv" id="ccv">
+					</div>
+				</div><!-- end creditcards -->
+
+				<div class="expirationdate">
+					<label for="month">Expiration Date:</label>
+					<select name="month" id="month">
+						<option value="">-Month-</option>
+						<option value="1">January (1)</option>
+						<option value="2">February (2)</option>
+						<option value="3">March (3)</option>
+						<option value="4">April (4)</option>
+						<option value="5">May (5)</option>
+						<option value="6">June (6)</option>
+						<option value="7">July (7)</option>
+						<option value="8">August (8)</option>
+						<option value="9">September (9)</option>
+						<option value="10">October (10)</option>
+						<option value="11">November (11)</option>
+						<option value="12">December (12)</option>
+					</select>
+					<select name="expiration" id="year">
+						<option value="">-Year-</option>
+						<option value="2015">2015</option>
+						<option value="2016">2016</option>
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+					</select>
+				</div>
 
 				<label for="firstname">First Name:</label>
 				<input type="text" name="firstname" id="firstname">
@@ -674,6 +695,12 @@
 					<option value="ZM">Zambia</option>
 					<option value="ZW">Zimbabwe</option>
 				</select>
+
+				<!-- Buttons -->
+				<div class="buttons">
+					<input type="submit" value="Send Information">
+					<input type="reset" value="Sorry, I was lying!">
+				</div>
 			</fieldset>
 		</form>
 	</div><!-- end sitecontainer -->

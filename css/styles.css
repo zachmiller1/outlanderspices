@@ -385,7 +385,7 @@ label {
 	margin: 10px 0;
 }
 
-#name, #address, #city, #state, #zip, #email, #share, #chef, #cook, #spice {
+#phone, #lastname, #firstname, #name, #address, #city, #month, #year, #state, #country, #zip, #email, #share, #chef, #cook, #spice {
 	line-height: 1.5;
 	width: 300px;
 	font-size: 1em;
@@ -421,7 +421,8 @@ label {
 =================== */
 
 .buttons {
-	margin: 10px 0 0 0;
+	margin: 30px 0 0 0;
+	text-align: center;
 }
 
 .buttons input {
@@ -631,11 +632,51 @@ label[for="newsletter"] {
 	margin: 0 10px 0 0;
 }
 
+#product, #quantity {
+	line-height: 1.5;
+	width: 50px;
+	font-size: 1em;
+	margin-bottom: 5px;
+}
+
+#product {
+	width: 200px;
+}
+
 /* ==================
 	Billing Info
 =================== */
 
+#month, #year {
+	display: inline;
+	width: 100px;
+}
 
+.creditcards {
+	margin-bottom: 60px;
+}
+
+#ccnumber, #ccv {
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+#billinginfo .formrow label {
+	font-weight: bold;
+}
+
+#billinginfo .formrow input {
+	margin: 12px 40px 0 5px;
+}
+
+#billinginfo .formrow input[type=text] {
+	margin: 5px 15px 0 5px;
+}
+
+.expirationdate {
+	display: inline-block;
+	margin: 20px 0;
+}
 
 /* ==================
 	Footer
